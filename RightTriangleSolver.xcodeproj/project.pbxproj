@@ -11,6 +11,8 @@
 		57FDDDE429C6C51800C55A63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FDDDE329C6C51800C55A63 /* ContentView.swift */; };
 		57FDDDE629C6C51900C55A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FDDDE529C6C51900C55A63 /* Assets.xcassets */; };
 		57FDDDEA29C6C51900C55A63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57FDDDE929C6C51900C55A63 /* Preview Assets.xcassets */; };
+		57FDDDF129C6C6D900C55A63 /* Calculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FDDDF029C6C6D900C55A63 /* Calculation.swift */; };
+		57FDDDF329C6C6EA00C55A63 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FDDDF229C6C6EA00C55A63 /* History.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		57FDDDE529C6C51900C55A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57FDDDE729C6C51900C55A63 /* RightTriangleSolver.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RightTriangleSolver.entitlements; sourceTree = "<group>"; };
 		57FDDDE929C6C51900C55A63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		57FDDDF029C6C6D900C55A63 /* Calculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculation.swift; sourceTree = "<group>"; };
+		57FDDDF229C6C6EA00C55A63 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				57FDDDE129C6C51800C55A63 /* RightTriangleSolverApp.swift */,
 				57FDDDE329C6C51800C55A63 /* ContentView.swift */,
+				57FDDDF229C6C6EA00C55A63 /* History.swift */,
+				57FDDDF029C6C6D900C55A63 /* Calculation.swift */,
 				57FDDDE529C6C51900C55A63 /* Assets.xcassets */,
 				57FDDDE729C6C51900C55A63 /* RightTriangleSolver.entitlements */,
 				57FDDDE829C6C51900C55A63 /* Preview Content */,
@@ -140,6 +146,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57FDDDE429C6C51800C55A63 /* ContentView.swift in Sources */,
+				57FDDDF129C6C6D900C55A63 /* Calculation.swift in Sources */,
+				57FDDDF329C6C6EA00C55A63 /* History.swift in Sources */,
 				57FDDDE229C6C51800C55A63 /* RightTriangleSolverApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,20 +2,24 @@
 //  ContentView.swift
 //  RightTriangleSolver
 //
-//  Created by Buddhika Kalupahana on 2023-03-19.
+//  Created by Pasindu Akalpa on 2023-03-19.
+//  pasinduakalpa1998@gmail.com
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            Calculation()
+                .tabItem {
+                    Label("Calculation", systemImage: "sum")
+                }
+            History()
+                .tabItem {
+                    Label("History", systemImage: "list.dash")
+                }
         }
-        .padding()
     }
 }
 
